@@ -1,6 +1,6 @@
 def saddle_points(matrix):
     
-    sp = set()
+    sp = []
     if len(matrix) > 0:
         ncol = len(matrix[0])
         
@@ -11,7 +11,8 @@ def saddle_points(matrix):
                 if matrix[r][c] == max(matrix[r]): 
                     col = column(matrix,c)
                     if matrix[r][c] == min(col):
-                        sp.add((r, c))
+                        sp.append({"row":r+1,"column":c+1})
+    print("sp=",sp)
     return sp  
 
 def column(matrix,col):
