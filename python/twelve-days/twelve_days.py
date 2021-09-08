@@ -22,5 +22,3 @@ def recite(start_verse, end_verse):
         song.append('On the ' + days[day] +' day of Christmas my true love gave to me: '+gifts[day
         ])
     return song
-
-recite(6,6)
