@@ -1,0 +1,47 @@
+ from __future__ import division
+ """ Module Doc string """
+
+
+
+class Rational:
+    """ Class docstring """
+    def __init__(self, numer, denom):
+        """ function doc string """
+        self.numer = None
+        self.denom = None
+
+    def __eq__(self, other):
+        """ function doc string """
+        return self.numer == other.numer and self.denom == other.denom
+
+    def __repr__(self):
+        """ function doc string """
+        return '{}/{}'.format(self.numer, self.denom)
+
+    def __add__(self, other):
+        """ function doc string """
+        pass
+
+    def __sub__(self, other):
+        """ function doc string """
+        pass
+
+    def __mul__(self, other):
+        """ function doc string """
+        pass
+
+    def __truediv__(self, other):
+        """ function doc string """
+        pass
+
+    def __abs__(self):
+        """ function doc string """
+        pass
+
+    def __pow__(self, power):
+        """ function doc string """
+        pass
+
+    def __rpow__(self, base):
+        """ function doc string """
+        pass
