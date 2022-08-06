@@ -6,18 +6,24 @@ class Character:
     def __init__(self):
         """ Function docstring """
 
-        self.strength = self.calc_score()
-        self.dexterity = self.calc_score()
-        self.constitution = self.calc_score()
-        self.intelligence = self.calc_score()
-        self.wisdom = self.calc_score()
-        self.charisma = self.calc_score()
-        self.hitpoints = 10 + (self.constitution - 10) // 2
+        self.strength = self.ability()
+        self.dexterity = self.ability()
+        self.constitution = self.ability()
+        self.intelligence = self.ability()
+        self.wisdom = self.ability()
+        self.charisma = self.ability()
+        self.hitpoints = 10 + modifier(self.constitution)
+    def ability(self):
+        """ Function docstring """
 
-    def calc_score(self):
         scores = []
-        for i in range(4):
+        for _ in range(4):
             scores.append(random.randint(1, 6))
-            scores.sorted()
+            scores.sort()
 
         return sum(scores[0:3])
+
+def modifier(constitution):
+    """ Function docstring """
+    return (constitution - 10) // 2
+    

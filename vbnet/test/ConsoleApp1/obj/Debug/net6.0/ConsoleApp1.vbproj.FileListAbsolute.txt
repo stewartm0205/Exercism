@@ -1,0 +1,15 @@
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.vbproj.AssemblyReference.cache
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.vb
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.vbproj.CoreCompileInputs.cache
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+F:\Users\Computer\Documents\Exercism\vbnet\test\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll

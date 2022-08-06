@@ -1,0 +1,15 @@
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\bin\Debug\net6.0\testregex.exe
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\bin\Debug\net6.0\testregex.deps.json
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\bin\Debug\net6.0\testregex.runtimeconfig.json
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\bin\Debug\net6.0\testregex.dll
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\bin\Debug\net6.0\testregex.pdb
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.csproj.AssemblyReference.cache
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.AssemblyInfoInputs.cache
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.AssemblyInfo.cs
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.csproj.CoreCompileInputs.cache
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.dll
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\refint\testregex.dll
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.pdb
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\testregex.genruntimeconfig.cache
+F:\Users\Computer\Documents\Exercism\csharp\test\testregex\obj\Debug\net6.0\ref\testregex.dll

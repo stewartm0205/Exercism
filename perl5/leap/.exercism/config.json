@@ -1,0 +1,27 @@
+{
+  "blurb": "Given a year, report if it is a leap year.",
+  "authors": [
+    "dnmfarrell"
+  ],
+  "contributors": [
+    "bistik",
+    "darksuji",
+    "kotp",
+    "kytrinyx",
+    "m-dango",
+    "rfilipo"
+  ],
+  "files": {
+    "solution": [
+      "Leap.pm"
+    ],
+    "test": [
+      "leap.t"
+    ],
+    "example": [
+      ".meta/solutions/Leap.pm"
+    ]
+  },
+  "source": "JavaRanch Cattle Drive, exercise 3",
+  "source_url": "http://www.javaranch.com/leap.jsp"
+}

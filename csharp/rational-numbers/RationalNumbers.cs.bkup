@@ -1,0 +1,90 @@
+using System;
+using System.Diagnostics;
+
+public static class RealNumberExtension
+{
+    public static double Expreal(this int realNumber, RationalNumber r)
+    {
+        //throw new NotImplementedException("You need to implement this extension method.");
+    }
+}
+
+public struct RationalNumber
+{
+    double n;
+    double d;
+    public RationalNumber(int numerator, int denominator)
+    {
+        n = numerator;
+        d = denominator;
+        g = gcd(n,d);
+        n = n/g;
+        d = n/g;
+    }
+
+    public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
+    {
+        RationalNumber t = new RationalNumber();
+        t.n = (r1.n * r2.d + r2.n * r1.d);
+        t.d = r1.d * r2.d;
+        return t;
+    }
+
+    public static RationalNumber operator -(RationalNumber r1, RationalNumber r2)
+    {
+        RationalNumber t = new RationalNumber();
+        t.n = (r1.n * r2.d - r2.n * r1.d);
+        t.d = r1.d * r2.d;
+        return t;
+    }
+
+    public static RationalNumber operator *(RationalNumber r1, RationalNumber r2)
+    {
+        RationalNumber t = new RationalNumber();
+        t.n = r1.n * r2.n;
+        t.d = r1.d * r2.d;
+        return t;
+    }
+
+    public static RationalNumber operator /(RationalNumber r1, RationalNumber r2)
+    {
+        RationalNumber t = new RationalNumber();
+        t.n = r1.n * r2.d;
+        t.d = r1.d * r2.n;
+        return t;
+    }
+
+    public RationalNumber Abs()
+    {
+        RationalNumber t = new RationalNumber();
+        if (this.n < 0 ) t.n = -1 * this.n;
+        return t;
+    }
+
+    public RationalNumber Reduce()
+    {
+        RationalNumber t = new RationalNumber();
+        double g = gcd(n,d);
+        t.n = n/g;
+        t.d = n/g;
+        return t;
+    }
+
+    public RationalNumber Exprational(int power)
+    {
+        RationalNumber t = new RationalNumber();
+        t.n = Math.Pow(n, power);
+        t.d = Math.Pow(d, power);
+        return t;
+    }
+
+    public double Expreal(int baseNumber)
+    {
+        return Math.Pow(Math.Pow(baseNumber,n),1/d);
+    }
+
+    public double gcd(double n1, double n2) {
+        if (n2 == 0) return n1;
+        else return gcd(n2, n1 % n2);
+    }
+}

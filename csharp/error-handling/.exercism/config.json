@@ -1,0 +1,24 @@
+{
+  "authors": [
+    "robkeim"
+  ],
+  "contributors": [
+    "balazsbotond",
+    "ErikSchierboom",
+    "felix91gr",
+    "j2jensen",
+    "wolf99"
+  ],
+  "files": {
+    "solution": [
+      "ErrorHandling.cs"
+    ],
+    "test": [
+      "ErrorHandlingTests.cs"
+    ],
+    "example": [
+      ".meta/Example.cs"
+    ]
+  },
+  "blurb": "Implement various kinds of error handling and resource management."
+}

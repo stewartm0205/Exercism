@@ -1,0 +1,19 @@
+using System;
+
+public static class BinarySearch
+{
+    public static int Find(int[] input, int value)
+    {
+        if (input.Length==0) return -1;
+        int sp = 0;
+        int ep = input.Length;
+        int mp = input.Length / 2;
+        while (input[mp]!=value) {
+            if (sp==ep) return -1;
+            if (value<input[mp]) ep = mp;
+            else sp=mp;
+            mp = (sp+ep)/2;
+        }
+        return mp;
+    }
+}

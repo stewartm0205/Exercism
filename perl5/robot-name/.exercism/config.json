@@ -1,0 +1,26 @@
+{
+  "blurb": "Manage robot factory settings.",
+  "authors": [
+    "dnmfarrell"
+  ],
+  "contributors": [
+    "bistik",
+    "choroba",
+    "cxw42",
+    "kytrinyx",
+    "m-dango",
+    "rfilipo"
+  ],
+  "files": {
+    "solution": [
+      "RobotName.pm"
+    ],
+    "test": [
+      "robot-name.t"
+    ],
+    "example": [
+      ".meta/solutions/RobotName.pm"
+    ]
+  },
+  "source": "A debugging session with Paul Blackwell at gSchool."
+}

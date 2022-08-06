@@ -1,0 +1,41 @@
+
+self=minute0hour8
+hour=8, minute=0
+self=minute9hour11
+hour=11, minute=9
+self=hour24minute0
+hour=24, minute=0
+self=hour25minute0
+hour=25, minute=0
+self=hour100minute0
+hour=100, minute=0
+self=minute60hour1
+hour=1, minute=60
+self=hour0minute160
+hour=0, minute=160
+self=hour0minute1723
+hour=0, minute=1723
+self=minute160hour25
+hour=25, minute=160
+self=hour201minute3001
+hour=201, minute=3001
+self=hour72minute8640
+hour=72, minute=8640
+self=hour-1minute15
+hour=-1, minute=15
+self=minute0hour-25
+hour=-25, minute=0
+self=hour-91minute0
+hour=-91, minute=0
+self=hour1minute-40
+hour=1, minute=-40
+self=hour1minute-160
+hour=1, minute=-160
+self=hour1minute-4820
+hour=1, minute=-4820
+self=hour2minute-60
+hour=2, minute=-60
+self=minute-160hour-25
+hour=-25, minute=-160
+self=minute-5810hour-121
+hour=-121, minute=-5810

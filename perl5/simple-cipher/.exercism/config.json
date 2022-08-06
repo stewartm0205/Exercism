@@ -1,0 +1,24 @@
+{
+  "blurb": "Implement a simple shift cipher like Caesar and a more secure substitution cipher",
+  "authors": [
+    "bistik"
+  ],
+  "contributors": [
+    "kytrinyx",
+    "m-dango",
+    "rfilipo"
+  ],
+  "files": {
+    "solution": [
+      "Cipher.pm"
+    ],
+    "test": [
+      "cipher.t"
+    ],
+    "example": [
+      ".meta/solutions/Cipher.pm"
+    ]
+  },
+  "source": "Substitution Cipher at Wikipedia",
+  "source_url": "http://en.wikipedia.org/wiki/Substitution_cipher"
+}

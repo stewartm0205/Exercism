@@ -1,0 +1,24 @@
+{
+  "blurb": "Implement a clock that handles times without dates.",
+  "authors": [
+    "bistik"
+  ],
+  "contributors": [
+    "kytrinyx",
+    "m-dango",
+    "rfilipo"
+  ],
+  "files": {
+    "solution": [
+      "Clock.pm"
+    ],
+    "test": [
+      "clock.t"
+    ],
+    "example": [
+      ".meta/solutions/Clock.pm"
+    ]
+  },
+  "source": "Pairing session with Erin Drummond",
+  "source_url": "https://twitter.com/ebdrummond"
+}

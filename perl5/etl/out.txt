@@ -1,0 +1,30 @@
+score=HASH(0x6820c0)
+key=1letters=A
+score=HASH(0x348ac10)
+key=1letters=AEIOU
+score=HASH(0x347cc80)
+key=1letters=AE
+key=2letters=DG
+score=HASH(0x348d6a0)
+key=8letters=JX
+key=2letters=DG
+key=3letters=BCMP
+key=4letters=FHVWY
+key=5letters=K
+key=1letters=AEIOULNRST
+key=10letters=QZ
+score=HASH(0x26820f0)
+key=1 letters=A
+score=HASH(0x35cebf0)
+key=1 letters=AEIOU
+score=HASH(0x35c1f58)
+key=2 letters=DG
+key=1 letters=AE
+score=HASH(0x35c8980)
+key=8 letters=JX
+key=1 letters=AEIOULNRST
+key=10 letters=QZ
+key=3 letters=BCMP
+key=2 letters=DG
+key=5 letters=K
+key=4 letters=FHVWY
