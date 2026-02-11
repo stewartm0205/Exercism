@@ -2,5 +2,5 @@
 
 const char *hello(void)
 {
-	return ("Hello, World!");
+	return ("Hello, World !");
 }
